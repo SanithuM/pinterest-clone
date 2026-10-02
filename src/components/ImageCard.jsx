@@ -55,7 +55,7 @@ function ImageCard({ url }) {
       <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-80 transition duration-300 flex flex-col justify-between">
         {/* Center Open Button */}
         <div className="flex justify-center mt-24">
-          <button className="px-4 py-2 bg-white text-black text-sm font-semibold rounded-full shadow hover:bg-gray-200">
+          <button className="px-4 py-2 bg-white text-black text-sm font-semibold rounded-full shadow hover:bg-gray-200 cursor-pointer">
             Open
           </button>
         </div>
@@ -63,7 +63,7 @@ function ImageCard({ url }) {
         {/* Bottom Right Buttons */}
         <div className="flex justify-end items-end p-3 space-x-2 relative">
           {/* Share Button */}
-          <button className="p-2 rounded-full bg-white shadow hover:bg-gray-100">
+          <button className="p-2 rounded-full bg-white shadow hover:bg-gray-100 cursor-pointer">
             <FiShare2 className="text-gray-700" size={18} />
           </button>
 
